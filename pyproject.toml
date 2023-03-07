@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "plt-makeovers"
+version = "0.1.0"
+description = "Recreating visualisations purely with matplotlib"
+authors = ["Sebastian Steenssøe <vildmedpap@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^3.6.1"
+matplotlib = "^3.7.1"
+pandas = "^1.5.3"
