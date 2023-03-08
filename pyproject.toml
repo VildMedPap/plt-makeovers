@@ -9,3 +9,9 @@ readme = "README.md"
 python = "^3.10"
 jupyterlab = "^3.6.1"
 matplotlib = "^3.7.1"
+
+[tool.poetry.group.census]
+optional = true
+[tool.poetry.group.census.dependencies]
+pandas = "^1.5.3"
+scipy = "^1.9.3"
